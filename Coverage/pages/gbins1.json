@@ -1,0 +1,20 @@
+var g_data = {
+c1460:[4,'READ_WRITE_CP',[],,'1459',1,1,'act_mon_cgrp','1454','/apb_pkg/apb_coverage',[[],[0,'1','1009',,'write_bins'],[0,'1','1024',,'read_bins']],[]],
+c1461:[4,'W_PADDR_CP',[],,'1459',1,1,'act_mon_cgrp','1454','/apb_pkg/apb_coverage',[[],[0,'1','1021',,'write_address_bin']],[]],
+c1462:[4,'R_PADDR_CP',[],,'1459',1,1,'act_mon_cgrp','1454','/apb_pkg/apb_coverage',[[],[0,'1','1006',,'read_address_bin']],[]],
+c1463:[4,'WRITE_DATA_CP',[],,'1459',1,1,'act_mon_cgrp','1454','/apb_pkg/apb_coverage',[[],[0,'1','1021',,'data']],[]],
+c1464:[4,'W_SLAVE_CP',[],,'1459',1,1,'act_mon_cgrp','1454','/apb_pkg/apb_coverage',[[],[0,'1','498',,'slave1'],[0,'1','523',,'slave2']],[]],
+c1465:[4,'R_SLAVE_CP',[],,'1459',1,1,'act_mon_cgrp','1454','/apb_pkg/apb_coverage',[[],[0,'1','492',,'slave1'],[0,'1','514',,'slave2']],[]],
+c1467:[4,'READ_DATA_OUT_CP',[],,'1466',1,1,'passive_mon_cgrp','1454','/apb_pkg/apb_coverage',[[],[0,'1','1611',,'read_data']],[]],
+c1468:[4,'PSLVERR_CP',[],,'1466',1,1,'passive_mon_cgrp','1454','/apb_pkg/apb_coverage',[[],[0,'1','9',,'err'],[0,'1','2024',,'err_n']],[]],
+c1933:[4,'READ_WRITE_CP',[],,'1932',1,1,'act_mon_cgrp','1927','work.apb_pkg::apb_coverage',[[],[0,'1','1009',,'write_bins'],[0,'1','1024',,'read_bins']],[]],
+c1934:[4,'W_PADDR_CP',[],,'1932',1,1,'act_mon_cgrp','1927','work.apb_pkg::apb_coverage',[[],[0,'1','1021',,'write_address_bin']],[]],
+c1935:[4,'R_PADDR_CP',[],,'1932',1,1,'act_mon_cgrp','1927','work.apb_pkg::apb_coverage',[[],[0,'1','1006',,'read_address_bin']],[]],
+c1936:[4,'WRITE_DATA_CP',[],,'1932',1,1,'act_mon_cgrp','1927','work.apb_pkg::apb_coverage',[[],[0,'1','1021',,'data']],[]],
+c1937:[4,'W_SLAVE_CP',[],,'1932',1,1,'act_mon_cgrp','1927','work.apb_pkg::apb_coverage',[[],[0,'1','498',,'slave1'],[0,'1','523',,'slave2']],[]],
+c1938:[4,'R_SLAVE_CP',[],,'1932',1,1,'act_mon_cgrp','1927','work.apb_pkg::apb_coverage',[[],[0,'1','492',,'slave1'],[0,'1','514',,'slave2']],[]],
+c1940:[4,'READ_DATA_OUT_CP',[],,'1939',1,1,'passive_mon_cgrp','1927','work.apb_pkg::apb_coverage',[[],[0,'1','1611',,'read_data']],[]],
+c1941:[4,'PSLVERR_CP',[],,'1939',1,1,'passive_mon_cgrp','1927','work.apb_pkg::apb_coverage',[[],[0,'1','9',,'err'],[0,'1','2024',,'err_n']],[]],
+dummyEnd:0
+};
+processCovergroupsData(g_data);

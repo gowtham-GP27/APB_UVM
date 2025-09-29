@@ -1,0 +1,7 @@
+var g_db_data = [
+{dummy:0},
+{name:'act_mon_cgrp',f:1,type:6,id:1459,tb:'9',h:'9',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','auto(true)']],hdlPath:'/apb_pkg/apb_coverage',parent:'1454'},
+{name:'passive_mon_cgrp',f:1,type:6,id:1466,tb:'3',h:'3',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','auto(true)']],hdlPath:'/apb_pkg/apb_coverage',parent:'1454'},
+{name:'act_mon_cgrp',f:1,type:6,id:1932,tb:'9',h:'9',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','true']],hdlPath:'work.apb_pkg::apb_coverage',parent:'1927'},
+{name:'passive_mon_cgrp',f:1,type:6,id:1939,tb:'3',h:'3',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','true']],hdlPath:'work.apb_pkg::apb_coverage',parent:'1927'}];
+processConsCovergroupsData(g_db_data);
