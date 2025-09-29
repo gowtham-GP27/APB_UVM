@@ -1,0 +1,30 @@
+QuestaSim vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 15:49:56 on Sep 25,2025
+vlog -sv "+acc" "+cover" "+fcover" -l apb.log apb_pkg.sv top.sv 
+-- Compiling package apb_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) apb_pkg.sv(3): Using implicit +incdir+/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: apb_sequence.sv(74): (vlog-2239) Treating stand-alone use of presumed external function as an implicit VOID cast.
+** Warning: apb_sequence.sv(79): (vlog-2239) Treating stand-alone use of presumed external function as an implicit VOID cast.
+** Warning: apb_sequence.sv(84): (vlog-2239) Treating stand-alone use of presumed external function as an implicit VOID cast.
+-- Compiling interface apb_intf
+** Warning: ** while parsing file included at top.sv(5)
+** at apb_pkg.sv(1): (vlog-2275) 'apb_pkg' already exists and will be overwritten.
+-- Compiling package apb_pkg
+** Warning: ** while parsing file included at top.sv(5)
+** at apb_sequence.sv(74): (vlog-2239) Treating stand-alone use of presumed external function as an implicit VOID cast.
+** Warning: ** while parsing file included at top.sv(5)
+** at apb_sequence.sv(79): (vlog-2239) Treating stand-alone use of presumed external function as an implicit VOID cast.
+** Warning: ** while parsing file included at top.sv(5)
+** at apb_sequence.sv(84): (vlog-2239) Treating stand-alone use of presumed external function as an implicit VOID cast.
+-- Compiling module master_bridge
+-- Compiling module slave1
+-- Compiling module slave2
+-- Compiling module APB_Protocol
+-- Compiling module top
+-- Importing package apb_pkg
+
+Top level modules:
+	top
+End time: 15:49:57 on Sep 25,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 7
